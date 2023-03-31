@@ -53,6 +53,3 @@ $action = {
 
 # Register an event handler for the FileSystemWatcher object that executes the $action script block when a new file is created
 Register-ObjectEvent $watcher "Created" -Action $action
-
-# Launch the game
-# Start-Process "G:\Games\steamapps\common\Hunt Showdown (Test Server)\hunt.exe"
