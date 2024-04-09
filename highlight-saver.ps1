@@ -43,9 +43,6 @@ $action = {
                 Write-Host $message
                 Write-Output $message
                 Copy-Item $path $targetPath
-
-                # Launch the game once the file copy is complete
-                Start-Process "G:\SteamLibrary\steamapps\common\Hunt Showdown\binaries\win_x64\hunt.exe"
             }
         }
     }
